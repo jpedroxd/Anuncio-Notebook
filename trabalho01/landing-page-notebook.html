@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook Gamer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="#" style="font-size: 25px;">NomeExemplo</a>
+        <div class="lado-direito">
+            <a href="#" id="home">Página inicial</a>
+            <a href="#">Contato</a>
+        </div>
+    </div> 
+    <main>
+        <div class="conteudo">
+                <div class="item">
+                    <h1>Notebook Gamer: <br>
+                    Potência e Praticidade
+                    </h1>
+
+                    <img src="imagens/notebook.png" alt=""><br>
+                        De <del>R$5.799,90</del><br>
+                        Por apenas <span id="preco">R$5.299,00<sup>*</sup></span><br><br>
+                        Com nosso cupom de desconto
+                </div>
+            
+            <div class="item">
+                <div class="formulario">
+                    <span id="titulo-formulario">Digite seus dados para liberar o cupom</span> <br>
+                    <form>
+                       Nome Completo <br>
+                       <input type="text" name="nome" id="texto"><br>
+
+                       CPF <br>
+                       <input type="text" name="cpf" id="texto"><br>
+
+                       Telefone <br>
+                       <input type="tel" name="telefone" id="texto"><br> 
+
+                       E-mail <br>
+                       <input type="email" name="email" id="texto">
+
+                       <input type="submit" value="Liberar Cupom" id="liberar-cupom">
+                    </form>
+                </div>
+                
+                <span id="possui-cupom">Já possui o cupom? <a href="#" target="_blank" id="link-comprar">clique aqui para comprar</a></span>
+            </div>
+        </div>
+        
+        <table id="ficha-tecnica">
+            <tr>
+                <th colspan="2"><h2>Ficha Técnica</h2></th>
+            </tr>
+            <tr>
+                <td>Processador</td>
+                <td>Processador Intel Core I5-9300H - Quad Core – 9ª Geração</td>
+            </tr>
+
+            <tr>
+                <td>Placa de Vídeo</td>
+                <td>NVIDIA GeForce GTX 1650 com memória dedicada VRAM de 4GB GDDR5</td>
+            </tr>
+
+            <tr>
+                <td>Memória Ram</td>
+                <td>16GB RAM DDR4</td>
+            </tr>
+
+            <tr>
+                <td>Armazenamento</td>
+                <td>1TB de HD + 512GB de SSD m.2</td>
+            </tr>
+
+            <tr>
+                <td>Tela</td>
+                <td>15,6” Full HD IPS</td>
+            </tr>
+        </table>
+            
+        <p id="alteracao-preco">*Modificações nas especificações irão alterar o preço final do produto</p>
+
+    </main>
+    
+</body>
+</html>

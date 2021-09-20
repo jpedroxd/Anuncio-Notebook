@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #162732;
+    font-size: 20px;
+  }
+  
+.header{
+  background-color: #189CA1;
+  padding: 15px;
+}
+
+.header a{
+   color: #162732;
+   text-decoration: none;
+   text-align: center;
+   padding: 12px;
+   border-radius: 4px;
+   font-size: 20px;
+}
+
+#home{
+  background-color: #162732;
+  color: white;
+}
+
+img{
+  width: 400px;
+}
+
+a:hover{
+  background-color: #162732;
+  color: #189CA1;
+}
+
+.lado-direito{
+  float: right;
+}
+
+h1{
+  font-size: 25px;
+  color: #162732;
+}
+
+.conteudo{
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.item{
+  margin: 10px;
+  margin-top: 50px;
+  border: 2px solid #162732;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+}
+
+.formulario{
+  margin: 10px;
+}
+
+#titulo-formulario{
+  font-weight: bold;
+  padding: 6px;
+  border: 2px solid #162732;
+  border-radius: 5px;
+  background-color: #189CA1;
+  color: white;
+}
+
+form{
+  padding: 10px;
+  margin: 30px;
+  
+  text-align: left;
+}
+
+input{
+  border: none;
+  border-bottom: 2px solid ;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#texto{
+  width: 100%;
+}
+
+#liberar-cupom{
+  border: 2px solid #162732;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #189CA1;
+  color: white;
+  cursor: pointer;
+}
+
+#liberar-cupom:hover{
+  background-color: #162732;
+}
+
+#possui-cupom{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#link-comprar{
+  text-decoration: none;
+  border: 2px solid #162732;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #189CA1;
+  color: white;
+}
+
+#link-comprar:hover{
+  background-color: #162732;
+}
+
+del{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#preco{
+  border:1px solid #162732;
+  padding: 3px;
+  background-color: #189CA1;
+  color: white;
+  border-radius: 5px;
+}
+
+#ficha-tecnica th, td, tr{
+  border: 1px solid #162732;
+  padding: 8px;
+}
+
+#ficha-tecnica{
+  font-weight: bold;
+  border: 1px solid #162732;
+  border-collapse: collapse;
+  width: 99%;
+  margin:auto;
+}
+
+#ficha-tecnica th{
+  background-color: #189CA1;
+  font-size: 15px;
+  font-weight: bold;
+  color: #162732;
+}
+
+#ficha-tecnica tr:hover{
+  background-color: #189CA1;
+  color: white;
+}
+
+#alteracao-preco{
+  text-align: center;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+  .lado-direito {
+    float: none;
+  }
+}
