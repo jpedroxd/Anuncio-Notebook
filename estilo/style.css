@@ -67,7 +67,9 @@ h1{
 }
 
 #titulo-formulario{
+  display: block;
   font-weight: bold;
+  font-size: 20px;
   padding: 6px;
   border: 2px solid #162732;
   border-radius: 5px;
