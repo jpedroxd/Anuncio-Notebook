@@ -84,6 +84,8 @@ form{
 input{
   height: 40px;
   width: 80%;
+  font-size: 18px;
+  color: #162732;
   border: none;
   border-bottom: 2px solid ;
   margin-bottom: 20px;
