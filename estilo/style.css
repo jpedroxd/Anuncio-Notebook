@@ -10,6 +10,7 @@ body {
 .header{
   background-color: #189CA1;
   padding: 15px;
+  width: 100%;
 }
 
 .header a{
@@ -67,7 +68,7 @@ h1{
 }
 
 #titulo-formulario{
-  display: block;
+  display: inline-block;
   font-weight: bold;
   font-size: 20px;
   padding: 6px;
